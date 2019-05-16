@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Clock from './Clock';
+import DigitalClock from './DigitalClock';
 
-ReactDOM.render(<Clock />, document.getElementById('root'));
+ReactDOM.render(<DigitalClock />, document.getElementById('root'));

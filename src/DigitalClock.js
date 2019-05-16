@@ -1,17 +1,15 @@
 import React, { Component, Fragment } from 'react';
 
-class Clock extends Component {
+class DigitalClock extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      value: 1,
       date: new Date()
     }
   }
   componentDidMount() {
     this.timer = setInterval(() => {
       this.setState({
-        value: ++this.state.value,
         date: new Date()
       })
     }, 1000)
@@ -34,4 +32,4 @@ class Clock extends Component {
   }
 }
 
-export default Clock;
+export default DigitalClock;
